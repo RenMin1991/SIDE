@@ -47,7 +47,7 @@ Avg_Update_Step = 20000
 
 continue_train = False
 if continue_train:
-    load_file = 'checkpoint/PCAselect_70.pth'
+    load_file = 'checkpoint/ckpt.pth'
     
 
 # define model
@@ -56,7 +56,7 @@ encoder = Encoder()
 pca_layer = PCASelection(num_eig=Num_Eig)
 # warm up ckpt
 if ADV_train:
-    warm_data = torch.load('checkpoint/PCAselect_sample30_memory_warm_0.pth', map_location=lambda storage, loc:storage)
+    warm_data = torch.load('checkpoint/ckpt_warmup.pth', map_location=lambda storage, loc:storage)
     encoder.load_state_dict(warm_data['encoder'])
     pca_layer.load_state_dict(warm_data['pca_layer'])
 
@@ -108,7 +108,7 @@ transforms_celebA = transforms.Compose([
 
     
 # get data
-celeba_set = CelebaDataset('/data/renmin/dataset_face/img_align_celeba/', transform=transforms_celebA)
+celeba_set = CelebaDataset('../img_align_celeba/', transform=transforms_celebA)
 celeba_loader = DataLoader(celeba_set, batch_size=BATCH, shuffle=True, drop_last=True)
 print ('length of CelebA Loader:', len(celeba_loader))
 
