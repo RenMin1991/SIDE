@@ -21,4 +21,4 @@ torchvision == 0.7.0
 
 ### Data preparing
 
-The proposed model is trained on [CelebA](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html),, which comprises a substantial collection of 202,599 facial images.
+The proposed model is trained on [CelebA](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html), which comprises a substantial collection of 202,599 facial images.
