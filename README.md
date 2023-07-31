@@ -6,3 +6,19 @@ Deep learning-based face recognition models are vulnerable to adversarial attack
 ![arch](framework.png)
 
 ![arch](recon.png)
+
+# Usage Instructions
+
+## Requirments
+
+python == 3.7
+
+pytorch == 1.6.0
+
+torchvision == 0.7.0
+
+## Training
+
+### Data preparing
+
+The proposed model is trained on [CelebA](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html),, which comprises a substantial collection of 202,599 facial images.
