@@ -33,5 +33,5 @@ The proposed model is trained on [CelebA](https://mmlab.ie.cuhk.edu.hk/projects/
 Pretrained model can be downloaded from [Baidu Netdisk](https://pan.baidu.com/s/1fOkdHLThw5x0QiFT2f5zYQ), code: g3sn
 or [Google Drive](https://drive.google.com/drive/folders/1It2f9mif3zdQJmu83LgFMCTwo9sAm8Od?usp=sharing)
 
-![arch](recon.png)
+![arch](push_example/push_sample.png)
 
