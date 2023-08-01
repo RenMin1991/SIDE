@@ -30,8 +30,10 @@ The proposed model is trained on [CelebA](https://mmlab.ie.cuhk.edu.hk/projects/
 
 `recon_face.py` to reconstruct facial image.
 
-Pretrained model can be downloaded from [Baidu Netdisk](https://pan.baidu.com/s/1fOkdHLThw5x0QiFT2f5zYQ), code: g3sn
+Pretrained model can be downloaded from [Baidu Netdisk](https://pan.baidu.com/s/1VkMxZ3M8KFFljn1Xjtx9vg?pwd=dptb), code: dptb
 or [Google Drive](https://drive.google.com/drive/folders/1It2f9mif3zdQJmu83LgFMCTwo9sAm8Od?usp=sharing)
+
+
 
 ![arch](push_example/push_example.png)
 
