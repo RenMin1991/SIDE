@@ -82,10 +82,10 @@ class MCLoss(nn.Module):
 
         if reg_model=='mb':
             face_model = MobiFaceNet().cuda()
-            face_model.load_state_dict(remove_module_dict(torch.load("/data/renmin/interpretable_face/source_code/checkpoint/arcface_mb.pth")))
+            face_model.load_state_dict(remove_module_dict(torch.load("checkpoint/arcface_mb.pth")))
         elif reg_model=='r50':
             face_model = Backbone(50).cuda() 
-            face_model.load_state_dict(remove_module_dict(torch.load("/data/renmin/interpretable_face/source_code/checkpoint/arcface_r50.pth")))
+            face_model.load_state_dict(remove_module_dict(torch.load("checkpoint/arcface_r50.pth")))
         self.face_model = face_model
         self.face_model.eval()
         
