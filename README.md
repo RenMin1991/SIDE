@@ -38,3 +38,17 @@ or [Google Drive](https://drive.google.com/drive/folders/1u9lDEw5OzsBUk4-3eOTFPm
 
 ![arch](push_example/push_example.png)
 
+
+# Citation
+If you find our work useful in your research, please consider to cite:
+
+    @ARTICLE{ren2024artificial,
+      author={Ren, Min and Wang, Yunlong and Yuhao, Zhu and Yongzhen, Huang and Qi, Li and Sun, Zhenan and Tan, Tieniu},
+      journal={International Journal of Computer Vision (IJCV)}, 
+      title={Artificial Immune System of Secure Face Recognition Against Adversarial Attacks}, 
+      year={2024},
+      volume={},
+      number={},
+      pages={1-17},
+      doi={https://doi.org/10.1007/s11263-024-02153-0}}
+
